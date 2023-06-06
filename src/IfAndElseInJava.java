@@ -28,12 +28,56 @@ public class IfAndElseInJava {
 //            System.out.println(a + " là số lớn nhất");
 //        }
 //        Kiểm tra năm nhuận
-        System.out.println("Mời nhập số năm cần kiểm tra");
-        int year = scanner.nextInt();
-        if (year % 4 == 0 && year % 400 != 0 && year % 100 == 0) {
-            System.out.println(year + " không phải là năm nhuận");
-        } else {
-            System.out.println(year + " là năm nhuận");
-        }
+//        System.out.println("Mời nhập số năm cần kiểm tra");
+//        int year = scanner.nextInt();
+//        if (year % 4 == 0 && year % 400 != 0 && year % 100 == 0) {
+//            System.out.println(year + " không phải là năm nhuận");
+//        } else {
+//            System.out.println(year + " là năm nhuận");
+//        }
+//        In điểm học sinh
+//        System.out.println("Nhập điểm học sinh");
+//        int a = scanner.nextInt();
+//        if (a < 25) {
+//            System.out.println("F");
+//        } else if (a <= 45) {
+//            System.out.println("E");
+//        } else if (a <= 50) {
+//            System.out.println("D");
+//        } else if (a <= 60) {
+//            System.out.println("C");
+//        } else if (a <= 80) {
+//            System.out.println("B");
+//        }else {
+//            System.out.println("A");
+//        }
+//        Tìm tuổi lớn nhất
+//        System.out.println("Nhập tuổi người thứ 1");
+//        int a = scanner.nextInt();
+//        System.out.println("Nhập tuổi người thứ 2");
+//        int b = scanner.nextInt();
+//        System.out.println("Nhập tuổi người thứ 3");
+//        int c = scanner.nextInt();
+//        if (a > b && a > c && b < c) {
+//            System.out.println("Người thứ 1 lớn tuổi nhất, người thứ 2 nhỏ tuổi nhất");
+//        } else if (a > b && a > c && b > c) {
+//            System.out.println("Người thứ 1 lớn tuổi nhất, người thứ 3 nhỏ tuổi nhất");
+//        } else if (b > a && b > c && a > c) {
+//            System.out.println("Người thứ 2 lớn tuổi nhất, người thứ 3 nhỏ tuổi nhất");
+//        } else if (b > a && b > c && a < c) {
+//            System.out.println("Người thứ 2 lớn tuổi nhất, người thứ 1 nhỏ tuổi nhất");
+//        } else if (c > a && c > b && a > b) {
+//            System.out.println("Người thứ 3 lớn tuổi nhất, người thứ 2 nhỏ tuổi nhất");
+//        } else {
+//            System.out.println("Người thứ 3 lớn tuổi nhất, người thứ 1 nhỏ tuổi nhất");
+//        }
+//        Câu 8
+        int x = 2;
+        int y = 5;
+        int z = 0;
+//        Giá trị tuyệt đối của 1 số
+        System.out.println("Nhập số bất kỳ");
+        int a = scanner.nextInt();
+        System.out.println(Math.abs(a));
     }
 }
